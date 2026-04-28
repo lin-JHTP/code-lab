@@ -86,7 +86,7 @@ b = np.array([10, 20, 30, 40])
 print(f"\na + b = {a + b}")
 print(f"a * b = {a * b}")        # 逐元素乘（不是矩阵乘！）
 print(f"a ** 2 = {a ** 2}")      # 平方
-print(f"np.sqrt(a) = {np.sqrt(a.astype(float)):.3f}")
+print(f"np.sqrt(a) = {np.sqrt(a.astype(float))}")   # 输出数组，如 [1. 1.414 1.732 2.]
 
 # 广播（Broadcasting）：不同形状的数组运算
 matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
